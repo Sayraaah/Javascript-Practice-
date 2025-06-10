@@ -222,7 +222,7 @@ const entries = Object.entries(objEntries);
 console.log(entries); // [["a", 1], ["b", 2]]
 
 //Object.assign(target, ...sources)
-//Copies properties from source objects to a target object.
+//Copies properties from source objects to a target object
 Object.assign({ a: 1 }, { b: 2 }); // { a: 1, b: 2 }
 
 //Object.freeze(obj)
